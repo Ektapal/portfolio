@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="nav" style="background-color: black; position: fixed">
+      <div class="logo"><img src="my logo.png" id="em" alt="logo" /></div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#practice">Practice</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" img>
+      <h1>Hello, I'm Ekta</h1>
+      <p>Creative Designer | Developer | Artist</p>
+      <a href="#portfolio" class="hero-btn">View My Work</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <!-- <div style="display: flex; align-items: center">
+        <h2>About Me</h2>
+        <div id="abt">
+          <img src="pro2.png" id="my" />
+        </div>
+      </div>
+      <div>
+        <h3>Welcome to my creative space</h3>
+        <p>
+          I'm a passionate designer and developer with experience in creating
+          visually stunning and user-friendly websites. My expertise includes
+          graphic design, web development, and ui-ux design.
+        </p>
+      </div> -->
+      <div class="outer">
+        <h1 style="font-size: 3rem; color: aliceblue">About me</h1>
+        <div
+          class="div1"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div style="width: 50%" class="abimg">
+            <img
+              src="my p.jpg"
+              style="
+                width: 16rem;
+                border-radius: 15px;
+                height: 20em;
+                padding-right: 2%;
+                padding-left: 2%;
+              "
+              alt=""
+            />
+          </div>
+          <div style="width: 50%" class="abpara">
+            <p style="color: rgb(255, 255, 255); padding-left: 2%">
+              I'm a passionate designer and developer with experience in
+              creating visually stunning and user-friendly websites. My
+              expertise includes graphic design, web development, and ui-ux
+              design.
+            </p>
+          </div>
+        </div>
+        <div style="color: black" class="div2">
+          <h3 style="color: rgb(255, 255, 255); padding-top: 10px">
+            Skill software
+          </h3>
+          <div class="software">
+            <img src="figma.jpg" class="size" alt="" />
+          </div>
+          <div class="software">
+            <img src="css.jpg" class="size" alt="" />
+          </div>
+          <div class="software">
+            <img src="js.jpg" class="size" alt="" />
+          </div>
+          <div class="software">
+            <img src="ps.jpg" class="size" alt="" />
+          </div>
+          <div class="software">
+            <img src="ai.jpg" class="size" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- practice work -->
+    <section id="practice" class="practice">
+      <h2 style="font-size: 3rem; color: rgb(255, 255, 255)">Practice work</h2>
+      <div class="web">
+        <a href="html.html" style="text-decoration: none; color: black">
+          <h2 style="font-size: 50px">Html</h2></a
+        >
+      </div>
+      <div class="graphics"><h2 style="font-size: 50px">Javascript</h2></div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <h2>My Projects</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="PRO3.png" id="PRO1" alt="Project 1" />
+          <div class="portfolio-info">
+            <h3>Project 1</h3>
+            <p>Project description goes here.</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="pro2.png" alt="Project 2" />
+          <div class="portfolio-info">
+            <h3>Project 2</h3>
+            <p>Event Management</p>
+          </div>
+        </div>
+        <!-- Add more portfolio items as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>Let's work together on your next project!</p>
+      <form action="#">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
